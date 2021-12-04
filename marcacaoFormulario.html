@@ -1,0 +1,56 @@
+<body>
+  <header class="container">
+    <h1 class="titulo">Formulário</h1>
+    <p class="descricao">Preencha os campos abaixo com o seus dados pessoais:</p>
+    <div class="dados">
+      <p>Nome</p><input type="text" id="nome" name="nome" placeholder="Nome completo">
+      <p>CPF</p><input id="cpf" name="cpf" title="Digite somente números" type="text" onkeypress="return somenteNumeros(event)" placeholder="Somente números">
+      <p class="mensagem" id="tamanho"></p>
+      <p>E-mail</p><input type="text" id="email" name="email" placeholder="E-mail">
+      <p>Endereço</p><input type="text" id="endereco" name="endereco" placeholder="Rua/Avenida e número">
+      <p class="cidade">Cidade</p><input type="text" id="cidade" name="cidade" placeholder="Cidade">
+      <p>Estado</p>
+      <select id="estado" class="estado">
+        <option selected>Selecione o Estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+      <p class="mensagem" id="campo-obrigatorio"></p>
+      <button onClick="enviarDados()">Enviar</button>
+      <div class="dadosGravados">
+        <h2 id="sucesso"></h2>
+        <div id="resultadoNome"></div>
+        <div id="resultadoCpf"></div>
+        <div id="resultadoEmail"></div>
+        <div id="resultadoEndereco"></div>
+        <div id="resultadoCidade"></div>
+        <div id="resultadoOption"></div>
+      </div>
+    </div>
+  </header>
+</body>

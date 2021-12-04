@@ -12,5 +12,5 @@ Após a apresentação dos dados cadastrados, todos as informações dos campos 
 
 <img src="https://github.com/LeticiaTognonDeSousa/Formulario-Simples/blob/master/Images/Formul%C3%A1rioSimples.png?raw=true" width="700" height="500"/>
 <img src="https://github.com/LeticiaTognonDeSousa/Formulario-Simples/blob/master/Images/SelecioneoEstado.png?raw=true" width="700" height="500"/>
-<img src="https://github.com/LeticiaTognonDeSousa/Formulario-Simples/blob/master/Images/DadosGravados.png?raw=true" width="700" height="500"/>
+<img src="https://github.com/LeticiaTognonDeSousa/Formulario-Simples/blob/master/Images/DadosGravados.png?raw=true" width="700" height="600"/>
 

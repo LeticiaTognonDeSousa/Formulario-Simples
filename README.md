@@ -5,7 +5,7 @@ Os dados são enviados e registrados somente se todos os campos forem preenchido
 
 O CPF deverá ser preenchido somente por números e, após o registro, será apresentado no formato xxx.xxx.xxx-xx.
 
-Foi inserido a opção select para que o Estado seja selecionado. 
+Foi inserida a opção select para que o Estado seja selecionado. 
 
 Quando o botão "Enviar" é pressionado, as funções verificam se há algum campo vazio e se o CPF possui exatamente 11 dígitos. Caso tudo esteja correto, os dados são registrados e mostrados na tela.
 Após a apresentação dos dados cadastrados, todos as informações dos campos são apagadas para que o usuário insira-as novamente caso queira. 
